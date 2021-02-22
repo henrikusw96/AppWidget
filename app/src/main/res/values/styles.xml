@@ -5,7 +5,7 @@
         <item name="android:layout_marginTop">12dp</item>
         <item name="android:layout_marginLeft">12dp</item>
         <item name="android:layout_marginRight">12dp</item>
-        <item name="android:background">@android:color/white</item>
+        <item name="android:background">#303135</item>
     </style>
 
     <style name="AppWidgetLabel" parent="AppWidgetText">
@@ -13,10 +13,12 @@
     </style>
 
     <style name="AppWidgetText" parent="Base.TextAppearance.AppCompat.Subhead">
-        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColor">#96999e</item>
     </style>
 
     <style name="AppWidgetButton" parent="Base.Widget.AppCompat.Button">
         <item name="android:layout_marginTop">12dp</item>
+        <item name="background">@drawable/widget_shape</item>
+        <item name="android:colorBackground">#303135</item>
     </style>
 </resources>
